@@ -1,0 +1,132 @@
+@import "reset.min.css";
+@import "animate.min.css";
+@import "swiper.min.css";
+
+html {
+  font-size: 100px;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 6.4rem;
+  height: 100%;
+  overflow: hidden;
+  .swiper-container {
+
+    height: 100%;
+    .img1{
+      position: fixed;
+      bottom:.4rem;
+      left: 50%;
+      margin-left: unit(-.45/2,rem);
+      z-index: 999;
+      width: .45rem;
+      height: .4rem;
+      animation: bounceInUp 4s ease .1s infinite;
+    }
+    .swiper-wrapper {
+      position: relative;
+      height: 100%;
+
+      .swiper-slide {
+        height: 100%;
+        background: url("../img/timg (1).jpg");
+      }
+      .slide1{
+        .box{
+          font-size: .18rem;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          animation: bounceInLeft 4s ease 0s 1;
+
+          img {
+            margin-top: .4rem;
+            width: 1.2rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            animation: bounceInDown 4s ease 0s 1;
+          }
+          .lin {
+            font-size: .3rem;
+            margin: .3rem 0;
+            animation: rubberBand 4s ease 0s 1;
+          }
+          .art {
+            margin-top: .55rem;
+            font-size: .45rem;
+            color: #82b1cd;
+          }
+        }
+      }
+
+      .slide2{
+        ul{
+          .png img{
+            display: block;
+            animation: swing 9s ease 3s 1;
+            width: 2.5rem;
+            height: .8rem;
+            margin: .2rem auto;
+
+          }
+          .png2 img{
+            display: block;
+            position:absolute;
+            top: 50%;
+            left: 39%;
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+
+          .png3 img{
+            height: .5rem;
+            animation: bounceIn 4s .3s infinite both;
+          }
+         .png3 .picture2{
+            position: absolute;
+            top: 3.9rem;
+            left: 2.9rem;
+          }
+          .picture3{
+            position: absolute;
+            top:4.7rem;
+            left: .9rem;
+          }
+          .picture4{
+            position: absolute;
+            top:7rem;
+            left: .75rem;
+          }
+          .picture5{
+            position: absolute;
+            top:8.3rem;
+            left:2.9rem;
+          }
+          .picture6{
+             position: absolute;
+             top:7rem;
+             right: .75rem;
+           }
+          .picture7{
+            position: absolute;
+            top:4.7rem;
+            right: .9rem;
+          }
+        }
+      }
+      .slide3{
+        h1{
+          font-size: .3rem;
+          text-align: center;
+          color: cadetblue;
+        }
+      }
+    }
+  }
+}

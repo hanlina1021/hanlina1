@@ -66,7 +66,14 @@ html, body {
       }
 
       .slide2{
+        position: relative;
         ul{
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
           .png img{
             display: block;
             animation: swing 9s ease 3s 1;
@@ -79,7 +86,9 @@ html, body {
             display: block;
             position:absolute;
             top: 50%;
-            left: 39%;
+            left: 50%;
+            margin-left: unit(-1.5/2,rem);
+            margin-top: unit(-1.5/2,rem);
             width: 1.5rem;
             height: 1.5rem;
           }
@@ -90,32 +99,32 @@ html, body {
           }
          .png3 .picture2{
             position: absolute;
-            top: 3.9rem;
+            top: 3.3rem;
             left: 2.9rem;
           }
           .picture3{
             position: absolute;
-            top:4.7rem;
+            top:4.1rem;
             left: .9rem;
           }
           .picture4{
             position: absolute;
-            top:7rem;
+            top:6.4rem;
             left: .75rem;
           }
           .picture5{
             position: absolute;
-            top:8.3rem;
+            top:7.7rem;
             left:2.9rem;
           }
           .picture6{
              position: absolute;
-             top:7rem;
+             top:6.4rem;
              right: .75rem;
            }
           .picture7{
             position: absolute;
-            top:4.7rem;
+            top:4.1rem;
             right: .9rem;
           }
         }
